@@ -1,0 +1,102 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background Styling */
+body {
+  background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Main Container */
+.container {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Header */
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f76c6c;
+}
+
+.header .icon {
+  font-size: 2rem;
+  color: #fcb69f;
+}
+
+/* Form Section */
+.form-group {
+  margin: 15px 0;
+  text-align: left;
+}
+
+label {
+  font-weight: 500;
+}
+
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: linear-gradient(to right, #f76c6c, #ff9a9e);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Current Streak Section */
+.streak-section {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fef3f3;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.streak-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #f76c6c;
+}
+
+.streak-details {
+  font-size: 1rem;
+  color: #555;
+}
